@@ -1,0 +1,39 @@
+:root {
+    --white: #ffffff;
+    --peach: #ea625c;
+}
+.freedom button {
+    padding: 1em 1.5em;
+    background-color: var(--peach);
+    color: var(--white);
+    border: none;
+    font-size: 12px;
+    font-weight: bolder;
+}
+.flex2 .learn-more {
+    display: flex;
+}
+.flex2 a .learn-more {
+    margin-top: 1em;
+}
+.learn-more hr {
+    width: 2rem;
+    background-color: var(--peach);
+    color: var(--peach);
+    height: 2.5px;
+}
+.learn-more hr:hover {
+    width: 3rem;
+}
+
+a .learn-more p {
+    color: var(--peach);
+    margin-top: -1px;
+    padding-left: 1em;
+    font-size: 12px;
+    font-weight: bolder;
+}
+a .learn-more p:hover {
+    padding-left: 2em;
+    font-size: 14px;
+}
